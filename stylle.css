@@ -1,0 +1,245 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+@font-face {
+    font-family: jose;
+    src: url(./fonts/JosefinSlab-SemiBold.ttf);
+}
+body{
+    background-color: rgb(50, 26, 59);
+}
+header{
+    background-color: rgb(217,0,91);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header h2{
+    margin: 0px 15%;
+    color: white;
+    padding: 23px;
+    font-family: 'Josefin Slab';
+}
+#sec1{
+   background-image: url(./imges/7d789f5d-5613-440e-9bc3-aa45735cdbdd.jfif);
+   background-size:cover;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-position: 0% 50%;
+   height: 650px;
+}
+#sec1 div{
+    float: right;
+    margin-top: 8%;
+   padding-left:  9%;
+    width:60%;
+}
+#sec1 h2{
+    font-size:78px;
+    color: rgb(217,0,91);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#sec1 h1{
+    margin: 0px;
+    font-family: jose;
+    letter-spacing: 3px;
+    font-size: 80px;
+    color: white;
+    width:65%;
+    padding: 4%;
+    background-color: rgb(42, 62, 192);
+}
+
+#sec1 p{
+    font-size: 16px;
+    padding: 2px ;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#sec2{
+    width: 90%;
+    background-color: rgb(55, 194, 60);
+    display: flex;
+    justify-content: space-around;
+    margin: 5% auto;
+}
+#sec2 #para{
+    
+    width: 31%;
+    color: white;
+    padding: 3% 1% 5% 5%;
+}
+h1{
+    font-family: jose;
+    color: white;
+    margin: 9% 0px ;
+    font-size: 32px;
+}
+p{
+    color: white;
+    margin-bottom: 21%;
+    line-height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+}
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    padding: 12px;
+    border: 2px solid white ;
+    text-decoration: none;
+    color: white;
+   
+}
+#sec2 #img{
+    width: 65%;
+    background-image: url(./imges/Web\ capture_21-10-2022_17231_.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 2%;
+}
+#sec3{
+    width: 90%;
+    margin: 2% auto ;
+    display: flex;
+   justify-content: space-around;
+}
+#sec3 div{
+   width: 60%;
+    margin: 3% 4% 2% 2%;
+}
+
+#div1{
+    border: 5px solid rgb(215, 5, 107);
+    padding: 4% 3% ;
+}
+#div2{
+    background-image: url(./imges/Web\ capture_21-10-2022_172349_.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 1%;
+}
+#sec4{
+    width: 90%;
+    margin: 1.5% auto ;
+    display: flex;
+   justify-content: space-around; 
+}
+#sec4 div{
+   
+    margin: 2% 4% 2% 2%;
+}
+#div3{
+    background-image:url(./imges/Web\ capture_21-10-2022_17245_.jpeg);
+    width: 48%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 1%;
+}
+
+#div4{
+    background-color: rgb(43, 63, 195);
+    padding: 9% 3%  5% 4%;
+    width: 46%;
+}
+#sec5{
+    width: 60%;
+    margin: 8% auto;
+}
+#sec5 div{
+    width: 15%;
+    height:4px  ;
+    float: left;
+    border: none;
+    background-color: rgb(43, 63, 195);
+   margin:  2.8% 5% 20% 0px ;
+   
+}
+#sec6{
+    width: 90%;
+    background-color: rgb(217,0,91);
+    display: flex;
+    justify-content: space-around;
+    margin: 5% auto;
+}
+#sec6 .img{
+    width: 65%;
+    background-image: url(./imges/Web\ capture_21-10-2022_172428_.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 1%;
+}
+#sec6 .para{
+    width: 36%;
+    padding: 5.5%;
+}
+#sec7{
+    display: flex;
+    background-color: rgb(22, 21, 57);
+    padding:  5% 10%;
+}
+#sec7 .para{
+    margin: 10% 4% ;
+    width: 43%;
+
+}
+#sec7 .img{
+    width: 65%;
+    background-image: url(./imges/33675062.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 1%;
+}
+#sec8{
+    width: 90%;
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+#sec8 .img1{
+    width: 30%;
+    background-image: url(./imges/Web\ capture_21-10-2022_172535_.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 1%;
+}
+#sec8 .img2{
+    width: 30%;
+    background-image: url(./imges/Web\ capture_21-10-2022_172516_.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 1%;
+}
+#sec8 .para{
+    width: 33%;
+    padding: 6% 2% 2% 2%;
+}
+#sec9{
+    background-color:rgb(43, 63, 195) ;
+    padding-top: 2%;
+}
+.end{
+    width: 80%;
+    margin: 2% 0px 2% 2%;
+    display: flex;
+    justify-content: space-around;
+}
+.headline h1{
+font-size: 21px;
+}
+/* .headline p{
+font-size: 16px;
+} */
+.footer p{
+text-align: center;
+padding: 2% 0px;
+font-size: 18px;
+}
+.footer hr{
+border: none;
+width: 83% ;
+margin: 0 auto;
+height: 0.3px;
+background-color: rgb(148, 147, 147);
+}
